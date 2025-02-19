@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
                 nameTextView.text = names[0]
             } else if (names.isEmpty()) {
                 nameTextView.text = "No more names in list."
-                it.isEnabled = false
             }
         }
 
